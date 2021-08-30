@@ -15,4 +15,5 @@ Instrututores:
 
     Erick Simões (Email: erick.simoes@cesar.org.br / )
     Everton Dias (Email: etgdb@cesar.org.br / )
-    Gerson Rodrigues (Email: gersonrs@live.com/ )
+    Gerson Rodrigues (Email: gersonrs@live.com / )
+    Daniel Arrais (Email: dac2@cesar.org.br / )
