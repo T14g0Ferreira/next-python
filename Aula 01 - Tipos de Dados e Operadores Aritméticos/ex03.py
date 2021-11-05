@@ -11,7 +11,8 @@ numero2 = int(input("Digite o segundo numero: "))
 
 resultado = numero1 + numero2
 
-print("A soma dos valores é: " + str(resultado))
+#Transformando numeral em string, para imprimir no resultado
+print("A soma dos valores é: " + str(resultado)) 
 print("A soma dos valores é: %i"  %(resultado))
 print(f"A soma dos valores é: {resultado}")
 print(resultado)
