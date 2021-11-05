@@ -1,10 +1,9 @@
-#    ===========================================
-#	   Tipos de Dados e Operadores Aritméticos
-#	 ===========================================
+#     ===========================================
+#	    Tipos de Dados e Operadores Aritméticos
+#	  ===========================================
 #
 #	 * Faça um Programa que peça as 4 notas bimestrais e mostre a média.
 #
-
 
 nota1 = float(input('Nota do 1º bimestre: '))
 nota2 = float(input('Nota do 2º bimestre: '))
