@@ -14,9 +14,33 @@
 #            Angiospermae 	    1 	            1 	        1
 #
 
-# Estas variáveis armazenam a presença (1) ou ausência (0) de cada caractere
-vasc = 0
-sem = 0
+"""Lógica 01"""
+vasc = 1
+sem = 1
 flor = 0
 
-# Seu código aqui
+if flor:
+  tipo = "Angiospermae"
+else:
+  if sem:
+    tipo = "Gymnospermae"
+  else:
+    tipo = "Pteridophyta" if vasc else "Bryophyta"
+
+print(tipo)
+
+"""Lógica 2"""
+# vasc = 1
+# sem = 1
+# flor = 1
+
+# if vasc == 0 and sem == 0 and flor == 0:
+#   print("Pertence ao grupo Bryophyta.")
+# elif vasc == 1 and sem == 0 and flor == 0:
+#   print("Pertence ao grupo Pteridophyta.")
+# elif vasc == 1 and sem == 1 and flor == 0:
+#   print("Pertence ao grupo Gymnospermae.")
+# elif vasc == 1 and sem == 1 and flor == 1:
+#   print("Pertence ao grupo Angiospermae.")
+# else:
+#   print("Não pertece a nenhum dos grupos.")

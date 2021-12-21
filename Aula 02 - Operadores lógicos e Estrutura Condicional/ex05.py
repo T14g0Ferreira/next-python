@@ -10,3 +10,21 @@
 #       d) estudantes e professores pagam meia-entrada.
 #
 
+idade = int(input("Digite a sua idade: "))
+
+if idade < 4 or idade > 60:
+  print("A entrada é gratuita")
+else:
+  classe = input("Você é professor ou estudante (Sim/Não)? ")
+  classe = classe.upper()
+
+if idade >= 4 and idade < 18:
+  if classe == "SIM":
+    print("A entrada é R$10,00")
+  else:
+    print("A entrada é R$20,00")
+elif idade >= 18 and idade < 60:
+  if classe == "SIM":
+    print("A entrada é R$15,00")
+  else:
+    print("A entrada é R$30,00")
